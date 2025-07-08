@@ -6,12 +6,14 @@ const useAppStore = create((set, get) => ({
     user: null,
     theme: 'light',
     isAuthenticated: false,
+    tabActive: "",
 
     // Actions
     login: (userData) => set({ user: userData, isAuthenticated: true }),
     logout: () => set({ user: null, isAuthenticated: false }),
     toggleTheme: () => set((state) => ({ theme: state.theme === 'light' ? 'dark' : 'light' })),
     updateProfile: (profileData) => set((state) => ({ user: { ...state.user, ...profileData } })),
+    // setTabActive: 
 
 }))
 

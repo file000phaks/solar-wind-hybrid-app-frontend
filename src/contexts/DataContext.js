@@ -9,40 +9,30 @@ export const DataProvider = ({ children }) => {
     const [dataLoaded, setDataLoaded] = React.useState(false);
     const [previousData, setPreviousData] = React.useState(null);
 
-    const [temp, setTemp] = React.useState(null);
-
     const fetchData = () => {
 
-        fetch('http://192.168.115.136:5000/weather')
+        fetch('https://swh-backend.onrender.com/api/live')
             .then(res => res.json())
             .then(json => {
 
-                console.log(json);
-
-                setTemp(json);
-
-                    // setLiveData(json.data);
-                    // setPreviousData(json.previous);
+                setLiveData(json.data);
+                setPreviousData(json.previous);
 
             })
             .catch(err => console.error('Fetch error:', err));
 
-        fetch('http://localhost:5000/api/history')
-            .then(res => {res.json()})
+        fetch('https://swh-backend.onrender.com/api/history')
+            .then(res => res.json())
             .then(json => {
-                if (Array.isArray(json) && json.length > 0) setHistoryData(json[0]);
+
+                setHistoryData(json);
             })
             .catch(err => console.error('Fetch error:', err));
 
-        // fetch('http://192.168.115.136:5000/weather)
+        // https://swh-backend.onrender.com
 
     };
 
-    React.useEffect(() => {
-
-        console.log(temp);
-;
-    }, [temp])
 
     return (
         <DataContext.Provider value={{
@@ -51,7 +41,6 @@ export const DataProvider = ({ children }) => {
                 live: liveData,
                 history: historyData,
                 previous: previousData,
-                temp,
             },
             setDataLoaded,
             dataLoaded,
