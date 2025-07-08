@@ -1,0 +1,299 @@
+[
+    {
+        "weather": {
+            "temperature": 22,
+            "humidity": 68,
+            "pressure": 1012,
+            "cloudCover": 30,
+            "uvIndex": 0,
+            "windSpeed": 5,
+            "windDirection": 180
+        },
+        "powerGeneration": {
+            "windPower": 8,
+            "solarPower": 2,
+            "totalPower": 10
+        },
+        "batteryStatus": {
+            "charging": true,
+            "SOC": 85,
+            "SOH": 92,
+            "systemMaintenance": {
+                "version": "2.4.1",
+                "lastUpdate": "2025-06-25",
+                "nextScheduled": "2025-08-01"
+            }
+        },
+        "powerConsumption": {
+            "hourlyConsumption": 9,
+            "dailyConsumption": 200,
+            "peakUsageHour": 18,
+            "peakLoad": 15,
+            "minUsageHour": 3
+        }
+    },
+    {
+        "weather": {
+            "temperature": 20,
+            "humidity": 70,
+            "pressure": 1013,
+            "cloudCover": 20,
+            "uvIndex": 1,
+            "windSpeed": 6,
+            "windDirection": 190
+        },
+        "powerGeneration": {
+            "windPower": 7,
+            "solarPower": 3,
+            "totalPower": 10
+        },
+        "batteryStatus": {
+            "charging": true,
+            "SOC": 86,
+            "SOH": 92,
+            "systemMaintenance": {
+                "version": "2.4.1",
+                "lastUpdate": "2025-06-25",
+                "nextScheduled": "2025-08-01"
+            }
+        },
+        "powerConsumption": {
+            "hourlyConsumption": 10,
+            "dailyConsumption": 205,
+            "peakUsageHour": 18,
+            "peakLoad": 15,
+            "minUsageHour": 3
+        }
+    },
+    {
+        "weather": {
+            "temperature": 24,
+            "humidity": 60,
+            "pressure": 1011,
+            "cloudCover": 15,
+            "uvIndex": 3,
+            "windSpeed": 7,
+            "windDirection": 200
+        },
+        "powerGeneration": {
+            "windPower": 6,
+            "solarPower": 10,
+            "totalPower": 16
+        },
+        "batteryStatus": {
+            "charging": false,
+            "SOC": 82,
+            "SOH": 92,
+            "systemMaintenance": {
+                "version": "2.4.1",
+                "lastUpdate": "2025-06-25",
+                "nextScheduled": "2025-08-01"
+            }
+        },
+        "powerConsumption": {
+            "hourlyConsumption": 11,
+            "dailyConsumption": 210,
+            "peakUsageHour": 18,
+            "peakLoad": 16,
+            "minUsageHour": 3
+        }
+    },
+    {
+        "weather": {
+            "temperature": 29,
+            "humidity": 55,
+            "pressure": 1010,
+            "cloudCover": 10,
+            "uvIndex": 7,
+            "windSpeed": 5,
+            "windDirection": 220
+        },
+        "powerGeneration": {
+            "windPower": 5,
+            "solarPower": 14,
+            "totalPower": 19
+        },
+        "batteryStatus": {
+            "charging": false,
+            "SOC": 80,
+            "SOH": 91,
+            "systemMaintenance": {
+                "version": "2.4.2",
+                "lastUpdate": "2025-07-01",
+                "nextScheduled": "2025-09-01"
+            }
+        },
+        "powerConsumption": {
+            "hourlyConsumption": 13,
+            "dailyConsumption": 215,
+            "peakUsageHour": 18,
+            "peakLoad": 17,
+            "minUsageHour": 3
+        }
+    },
+    {
+        "weather": {
+            "temperature": 32,
+            "humidity": 50,
+            "pressure": 1009,
+            "cloudCover": 5,
+            "uvIndex": 9,
+            "windSpeed": 4,
+            "windDirection": 240
+        },
+        "powerGeneration": {
+            "windPower": 4,
+            "solarPower": 16,
+            "totalPower": 20
+        },
+        "batteryStatus": {
+            "charging": false,
+            "SOC": 78,
+            "SOH": 91,
+            "systemMaintenance": {
+                "version": "2.4.2",
+                "lastUpdate": "2025-07-01",
+                "nextScheduled": "2025-09-01"
+            }
+        },
+        "powerConsumption": {
+            "hourlyConsumption": 14,
+            "dailyConsumption": 220,
+            "peakUsageHour": 18,
+            "peakLoad": 18,
+            "minUsageHour": 3
+        }
+    },
+    {
+        "weather": {
+            "temperature": 31,
+            "humidity": 52,
+            "pressure": 1008,
+            "cloudCover": 8,
+            "uvIndex": 6,
+            "windSpeed": 6,
+            "windDirection": 250
+        },
+        "powerGeneration": {
+            "windPower": 6,
+            "solarPower": 13,
+            "totalPower": 19
+        },
+        "batteryStatus": {
+            "charging": true,
+            "SOC": 80,
+            "SOH": 91,
+            "systemMaintenance": {
+                "version": "2.4.2",
+                "lastUpdate": "2025-07-01",
+                "nextScheduled": "2025-09-01"
+            }
+        },
+        "powerConsumption": {
+            "hourlyConsumption": 15,
+            "dailyConsumption": 225,
+            "peakUsageHour": 18,
+            "peakLoad": 19,
+            "minUsageHour": 3
+        }
+    },
+    {
+        "weather": {
+            "temperature": 28,
+            "humidity": 57,
+            "pressure": 1010,
+            "cloudCover": 20,
+            "uvIndex": 3,
+            "windSpeed": 7,
+            "windDirection": 260
+        },
+        "powerGeneration": {
+            "windPower": 7,
+            "solarPower": 7,
+            "totalPower": 14
+        },
+        "batteryStatus": {
+            "charging": true,
+            "SOC": 82,
+            "SOH": 91,
+            "systemMaintenance": {
+                "version": "2.4.3",
+                "lastUpdate": "2025-07-05",
+                "nextScheduled": "2025-09-05"
+            }
+        },
+        "powerConsumption": {
+            "hourlyConsumption": 17,
+            "dailyConsumption": 230,
+            "peakUsageHour": 18,
+            "peakLoad": 20,
+            "minUsageHour": 3
+        }
+    },
+    {
+        "weather": {
+            "temperature": 25,
+            "humidity": 60,
+            "pressure": 1012,
+            "cloudCover": 30,
+            "uvIndex": 0,
+            "windSpeed": 6,
+            "windDirection": 270
+        },
+        "powerGeneration": {
+            "windPower": 8,
+            "solarPower": 3,
+            "totalPower": 11
+        },
+        "batteryStatus": {
+            "charging": false,
+            "SOC": 85,
+            "SOH": 92,
+            "systemMaintenance": {
+                "version": "2.4.3",
+                "lastUpdate": "2025-07-05",
+                "nextScheduled": "2025-09-05"
+            }
+        },
+        "powerConsumption": {
+            "hourlyConsumption": 13,
+            "dailyConsumption": 235,
+            "peakUsageHour": 18,
+            "peakLoad": 20,
+            "minUsageHour": 3
+        }
+    },
+    {
+        "weather": {
+            "temperature": 23,
+            "humidity": 65,
+            "pressure": 1013,
+            "cloudCover": 40,
+            "uvIndex": 0,
+            "windSpeed": 5,
+            "windDirection": 280
+        },
+        "powerGeneration": {
+            "windPower": 7,
+            "solarPower": 1,
+            "totalPower": 8
+        },
+        "batteryStatus": {
+            "charging": true,
+            "SOC": 87,
+            "SOH": 93,
+            "systemMaintenance": {
+                "version": "2.4.3",
+                "lastUpdate": "2025-07-05",
+                "nextScheduled": "2025-09-05"
+            }
+        },
+        "powerConsumption": {
+            "hourlyConsumption": 12,
+            "dailyConsumption": 240,
+            "peakUsageHour": 18,
+            "peakLoad": 20,
+            "minUsageHour": 3
+        }
+    }
+]
